@@ -10,6 +10,7 @@ import {
   SiNextdotjs,
   SiPostgresql,
   SiReact,
+  SiReactquery,
   SiRedis,
   SiTailwindcss,
   SiTypescript,
@@ -84,5 +85,40 @@ export const skills = [
   {
     text: 'Cypress',
     icon: SiCypress,
+  },
+];
+
+export const projects = [
+  {
+    title: 'Job Tracker',
+    description: 'This is a project',
+    techStack: [SiNextdotjs, SiReactquery, SiTailwindcss, SiFirebase],
+    link: 'https://www.linkedin.com/in/wycliff-kimutai/',
+    cover: '/profile-1.png',
+    background: 'bg-green-400',
+  },
+  {
+    title: 'Project 2',
+    description: 'This is a project',
+    techStack: [SiNextdotjs, SiReactquery, SiTailwindcss, SiFirebase],
+    link: 'https://www.linkedin.com/in/wycliff-kimutai/',
+    cover: '/profile-1.png',
+    background: 'bg-indigo-400',
+  },
+  {
+    title: 'Project 3',
+    description: 'This is a project',
+    techStack: [SiNextdotjs, SiReactquery, SiTailwindcss, SiFirebase],
+    link: 'https://www.linkedin.com/in/wycliff-kimutai/',
+    cover: '/profile-1.png',
+    background: 'bg-gray-400',
+  },
+  {
+    title: 'Project 4',
+    description: 'This is a project',
+    techStack: [SiNextdotjs, SiReactquery, SiTailwindcss, SiFirebase],
+    link: 'https://www.linkedin.com/in/wycliff-kimutai/',
+    cover: '/profile-1.png',
+    background: 'bg-green-400',
   },
 ];
