@@ -16,10 +16,10 @@ export const Experiences = () => {
     content: (
       <div key={index} className="flex flex-col md:flex-col gap-4">
         <div className="w-1/4 md:w-3/6">
-          <h3 className="text-lg font-bold text-neutral-500 dark:text-neutral-200">
+          <h1 className="text-lg font-bold text-neutral-500 dark:text-neutral-200">
             {'🤖   '}
             {item.title}
-          </h3>
+          </h1>
         </div>
         <div className="w-3/4 md:w-5/6">
           <p className="text-neutral-400 text-sm italic dark:text-neutral-400">
