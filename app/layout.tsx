@@ -24,7 +24,12 @@ export const metadata: Metadata = {
     images: '/bio.png',
     type: 'website',
   },
-  keywords: ['daily web coding', 'chensokheng', 'dailywebcoding'],
+  keywords: [
+    'web developer',
+    'software engineer',
+    'Wycliff Kimutai',
+    'portfolio',
+  ],
 };
 
 export default function RootLayout({
