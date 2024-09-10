@@ -1,7 +1,6 @@
 "use client";
 import Title from "@/app/(home)/components/Title";
 import {
-  useMotionValueEvent,
   useScroll,
   useTransform,
   motion,
