@@ -2,7 +2,6 @@
 import { Button } from '@/components/ui/moving-border';
 import Link from 'next/link';
 import Title from './Title';
-import { motion } from 'framer-motion';
 
 const HeroSection = () => {
   return (
@@ -55,16 +54,11 @@ const HeroSection = () => {
           </div>
           <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
         </div>
-        <motion.div
-          className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10"
-          initial={{ x: '900px' }}
-          animate={{ x: 0 }}
-          transition={{ delay: 0.2 }}
-        >
-          <Button borderRadius="0.5rem" className="p-3 font-semibold">
+        <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10 animate-move-right-very-slow">
+          <Button borderRadius="0.5rem" className="p-3 font-semibold ">
             <p>🔇 Available for work</p>
           </Button>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

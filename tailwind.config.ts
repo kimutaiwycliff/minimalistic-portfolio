@@ -63,6 +63,14 @@ const config: Config = {
         sm: 'calc(var(--radius) - 4px)',
       },
       keyframes: {
+        'move-left': {
+          from: { transform: 'translateX(-300px)', opacity: '0' } ,
+          to: { transform: 'translateY(0px)', opacity: '1' },
+        },
+        'move-right': {
+          from: { transform: 'translateX(300px)', opacity: '0' } ,
+          to: { transform: 'translateY(0px)', opacity: '1' },
+        },
         'move-up': {
           from: { transform: 'translateY(10px)', opacity: '0' },
           to: { transform: 'translateY(0px)', opacity: '1' },
@@ -85,6 +93,11 @@ const config: Config = {
         'accordion-up': 'accordion-up 0.2s ease-out',
         'move-up': 'move-up 1s linear forwards',
         'move-down': 'move-down 1s linear forwards',
+        'move-left-fast': 'move-left 0.4s ease-out',
+        'move-left-slow': 'move-left 0.8s ease-out',
+        'move-right-fast': 'move-right 0.4s ease-out',
+        'move-right-slow': 'move-right 0.8s ease-out',
+        'move-right-very-slow': 'move-right 1.5s ease-out',
       },
     },
   },
