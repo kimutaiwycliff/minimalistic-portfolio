@@ -1,3 +1,4 @@
+import { Experiences } from './components/Experiences';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
 import NavBar from './components/NavBar';
@@ -16,6 +17,7 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto p-5 mt-20">
           <Skills />
           <Projects />
+          <Experiences />
           <Footer />
         </div>
       </div>

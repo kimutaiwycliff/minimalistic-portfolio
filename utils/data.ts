@@ -122,3 +122,39 @@ export const projects = [
     background: 'bg-green-400',
   },
 ];
+
+export const experiences = [
+  {
+    title: 'Senior Desktop Developer',
+    description:['Developed GIS apps, QGIS plugins, and automation scripts; managed data with GeoServer and POSTGIS.','ddd','ddd']
+      ,
+    date: '09/2022 - Present',
+    company: 'Konza Silicon Company Limited',
+    position: 'left',
+  },
+  {
+    title: 'Geospatial Engineer',
+    description:['Developed GIS apps, QGIS plugins, and automation scripts; managed data with GeoServer and POSTGIS.','ddd','ddd']
+      ,
+    date: '02/2022 - 09/2022',
+    company: 'Bell Power International',
+    position: 'right',
+  },
+  {
+    title: 'Lead Surveyor',
+    description:['Conducted topographic surveys and design reviews for the Garaad-Galkayo-Tuurdibi road project.']
+      ,
+    date: '07/2021 - 02/2022',
+    company: 'KAAD, Somalia',
+    position: 'left',
+  },
+  {
+    title: 'Engineering Survey Intern',
+    description:['Assisted in land surveys, topographic assessments, and CAD designs for the Busia-Malaba road project.']
+      ,
+    date: '08/2019 - 02/2020',
+    company: 'Kenya National Highways Authority (KeNHA)',
+    position: 'right',
+  },
+];
+
