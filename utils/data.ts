@@ -102,7 +102,7 @@ export const projects = [
     description: 'This is a project',
     techStack: [SiNextdotjs, SiReactquery, SiTailwindcss, SiFirebase],
     link: 'https://www.linkedin.com/in/wycliff-kimutai/',
-    cover: '/profile-1.png',
+    cover: '/bio.png',
     background: 'bg-indigo-400',
   },
   {

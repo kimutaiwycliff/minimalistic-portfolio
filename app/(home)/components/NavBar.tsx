@@ -1,9 +1,10 @@
+import { cn } from '@/lib/utils';
 import { socials } from '@/utils/data';
 import Link from 'next/link';
 
-const NavBar = () => {
+const NavBar = ({ className }: { className?: string }) => {
   return (
-    <nav className="py-10 flex justify-between items-center">
+    <nav className={cn('py-10 flex justify-between items-center', className)}>
       <h1 className="text-2xl font-bold underline underline-offset-8 decoration-green-400 -rotate-2">
         {' '}
         Wycliff Kimutai 🥷🏽
@@ -11,7 +12,7 @@ const NavBar = () => {
       <div className="flex items-center gap-5">
         {socials.map((social, index) => (
           <Link href={social.link} key={index} aria-label={social.label}>
-            <social.Icon className='w-5 h-5 hover:scale-125 transition-all'/>
+            <social.Icon className="w-5 h-5 hover:scale-125 transition-all" />
           </Link>
         ))}
       </div>
