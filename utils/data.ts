@@ -18,17 +18,17 @@ import {
 } from 'react-icons/si';
 export const socials = [
   {
-    link: 'https://www.linkedin.com/in/wycliff-kimutai/',
+    link: 'https://www.linkedin.com/in/kimutai-wycliff-698903139/',
     label: 'LinkedIn',
     Icon: SiLinkedin,
   },
   {
-    link: 'https://www.linkedin.com/in/wycliff-kimutai/',
+    link: 'https://github.com/kimutaiwycliff',
     label: 'GitHub',
     Icon: SiGithub,
   },
   {
-    link: 'https://www.linkedin.com/in/wycliff-kimutai/',
+    link: 'https://x.com/kimtaiwiki',
     label: 'Twitter',
     Icon: SiX,
   },
