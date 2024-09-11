@@ -16,7 +16,7 @@ export const Experiences = () => {
     // spread the rest of the object in content
     content: (
       <div key={index} className="flex flex-col md:flex-col gap-4">
-        <div className="w-1/4 md:w-3/6">
+        <div className="w-2/4 md:w-3/6 ">
           <h1 className="text-lg font-bold text-neutral-500 dark:text-neutral-200">
             {'🤖   '}
             {item.title}

@@ -17,7 +17,7 @@ export const HoverEffect = ({
 
   return (
     <div
-      className={cn('grid sm:grid-cols-2 md:grid-cols-2  lg:grid-cols-4  py-10', className)}
+      className={cn('grid grid-cols-4 md:grid-cols-2  lg:grid-cols-4  py-10', className)}
     >
       {items.map((item, idx) => {
         const Icon = item.icon;
