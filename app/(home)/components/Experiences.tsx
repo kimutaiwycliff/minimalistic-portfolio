@@ -4,6 +4,7 @@ import { Timeline } from '@/components/ui/timeline';
 import { Button } from '@/components/ui/moving-border';
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
+import Link from 'next/link';
 
 export const Experiences = () => {
   const expRef = useRef<HTMLDivElement>(null);
@@ -47,15 +48,17 @@ export const Experiences = () => {
         <Timeline data={data} />
       </div>
       <div ref={btnRef}>
-      <div
-        className={`flex flex-col items-center justify-center -rotate-6 ${
-          isBtnInView ? 'animate-move-left-fast' : ''
-        }`}
-      >
-        <Button borderRadius="0.5rem" className="p-3 font-semibold ">
-          <p>🔇 Get Full CV</p>
-        </Button>
-      </div>
+        <Link
+          href="/Resume.pdf"
+          download={true}
+          className={`flex flex-col items-center justify-center -rotate-6 ${
+            isBtnInView ? 'animate-move-left-fast' : ''
+          }`}
+        >
+          <Button borderRadius="0.5rem" className="p-3 font-semibold ">
+            <p>📝 Get Full CV</p>
+          </Button>
+        </Link>
       </div>
     </div>
   );
