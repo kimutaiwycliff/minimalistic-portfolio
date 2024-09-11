@@ -125,36 +125,57 @@ export const projects = [
 
 export const experiences = [
   {
-    title: 'Senior Desktop Developer',
-    description:['Developed GIS apps, QGIS plugins, and automation scripts; managed data with GeoServer and POSTGIS.','ddd','ddd']
-      ,
-    date: '09/2022 - Present',
+    title: 'Front-End Developer',
+    description: [
+      'Designed and developed user interfaces using Angular.',
+      'Collaborated with backend developers to integrate APIs and optimize performance.',
+      'Ensured responsive design and cross-browser compatibility.',
+      'Implemented best practices in UI/UX to enhance user experience.',
+    ],
+    date: '09/2023 - Present',
     company: 'Konza Silicon Company Limited',
     position: 'left',
   },
   {
-    title: 'Geospatial Engineer',
-    description:['Developed GIS apps, QGIS plugins, and automation scripts; managed data with GeoServer and POSTGIS.','ddd','ddd']
-      ,
-    date: '02/2022 - 09/2022',
-    company: 'Bell Power International',
+    title: 'Senior GIS Desktop Developer',
+    description: [
+      'Developed GIS desktop applications for Windows and Linux.',
+      'Created QGIS plugins and wrote Python scripts for geoprocessing automation.',
+      'Conducted spatial data analysis using pandas and geopandas.',
+      'Built web applications and data dashboards using Python.',
+      'Managed and rendered spatial data using Geoserver and POSTGIS.',
+      'Deployed applications using Docker Swarm and Kubernetes.',
+      'Developed web maps for data visualizations using folium and dash libraries.',
+    ],
+    date: '09/2022 - 09/2023',
+    company: 'Konza Silicon Company Limited',
     position: 'right',
   },
   {
-    title: 'Lead Surveyor',
-    description:['Conducted topographic surveys and design reviews for the Garaad-Galkayo-Tuurdibi road project.']
-      ,
-    date: '07/2021 - 02/2022',
-    company: 'KAAD, Somalia',
+    title: 'Geospatial Engineer',
+    description: [
+      'Conducted spatial analysis to identify optimal locations for renewable energy installations.',
+      'Collected, managed, and analyzed spatial data to support project planning and monitoring.',
+      'Utilized GIS to assess the environmental impact of proposed energy projects.',
+      'Developed automated workflows to improve operational efficiency and data analysis accuracy.',
+      'Implemented GIS solutions to optimize the planning and management of energy infrastructure.',
+    ],
+    date: '02/2022 - 09/2022',
+    company: 'Bell Power International',
     position: 'left',
   },
   {
-    title: 'Engineering Survey Intern',
-    description:['Assisted in land surveys, topographic assessments, and CAD designs for the Busia-Malaba road project.']
-      ,
-    date: '08/2019 - 02/2020',
-    company: 'Kenya National Highways Authority (KeNHA)',
+    title: 'Lead Surveyor',
+    description: [
+      'Successfully conducted topographic surveys and design reviews for highway construction.',
+      'Established control points and benchmarks for accurate road construction using static survey techniques.',
+      'Mapped and analyzed terrain to identify potential challenges and opportunities.',
+      'Ensured alignment with project timelines and milestones through efficient survey planning and execution.',
+      'Implemented precise land surveys to establish boundaries and right-of-way considerations.',
+      'Developed comprehensive survey reports to guide decision-making in the early stages of the road project.',
+    ],
+    date: '07/2021 - 02/2022',
+    company: 'KAAD, Somalia',
     position: 'right',
   },
 ];
-
