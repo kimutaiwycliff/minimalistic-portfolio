@@ -6,17 +6,21 @@ import {
   SiGithub,
   SiGo,
   SiGraphql,
+  SiLeaflet,
   SiLinkedin,
+  SiMapbox,
   SiMongodb,
   SiNextdotjs,
   SiPostgresql,
   SiReact,
   SiReactquery,
   SiRedis,
+  SiRedux,
   SiTailwindcss,
   SiTypescript,
   SiX,
 } from 'react-icons/si';
+import { text } from 'stream/consumers';
 export const socials = [
   {
     link: 'https://www.linkedin.com/in/kimutai-wycliff-698903139/',
@@ -42,6 +46,18 @@ export const skills = [
   {
     text: 'Next.js',
     icon: SiNextdotjs,
+  },
+  {
+    text: 'React Query',
+    icon: SiReactquery,
+  },
+  {
+    text: 'Mapbox',
+    icon: SiMapbox,
+  },
+  {
+    text: 'Leaftlet',
+    icon: SiLeaflet,
   },
   {
     text: 'TailwindCSS',
@@ -84,9 +100,13 @@ export const skills = [
     icon: SiFirebase,
   },
   {
-    text: 'Cypress',
-    icon: SiCypress,
+    text: 'Golang',
+    icon: SiGo
   },
+  {
+    text: 'Redux',
+    icon: SiRedux
+  }
 ];
 
 export const projects = [
@@ -99,11 +119,11 @@ export const projects = [
     background: 'bg-green-400',
   },
   {
-    title: 'Portfolio',
-    description: 'This is my minimalistic portfolio',
-    techStack: [SiNextdotjs, SiReactquery, SiTailwindcss, SiFirebase],
-    link: 'https://minimalistic-portfolio-five.vercel.app/',
-    cover: '/portfolio.png',
+    title: 'Indigenous Territories Map',
+    description: 'This is a project that maps indigenous territories',
+    techStack: [SiNextdotjs, SiReactquery,  SiLeaflet, SiRedis, SiPostgresql],
+    link: 'http://54.246.245.19:3000',
+    cover: '/territories_webmap.png',
     background: 'bg-indigo-400',
   },
   {
